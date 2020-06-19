@@ -5,14 +5,14 @@
 
 // ---- ゲーム全体に関わる部分 ---------------------------------------------
 
-/** プレイヤーエンティティ */
-let player;
+/** たいやきエンティティ */
+let taiyaki;
 
 function setup() {
   createCanvas(800, 600);
   rectMode(CENTER);
 
-  // プレイヤーを作成
+  // たいやきを作成
   taiyaki = createTaiyaki();
 }
 
